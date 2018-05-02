@@ -11,7 +11,7 @@ public class FileUt {
 		fin = new Scanner(new File(fname));
 		int y = countRecY(fin);
 		fin = new Scanner(new File(fname));
-		ret = new String[y][x];
+		ret = new String[x][y];
 		int ix = 0;
 		String[] parse;
 		while (fin.hasNextLine()) {
@@ -25,12 +25,12 @@ public class FileUt {
 
 	}
 
-	public static int countRecX(Scanner fin) {
+	public static int countRecY(Scanner fin) {
 		char[] cnt = fin.nextLine().toCharArray();
 		return cnt.length;
 	}
 
-	public static int countRecY(Scanner fin) {
+	public static int countRecX(Scanner fin) {
 		int cntr = 0;
 		while (fin.hasNextLine()) {
 			fin.nextLine();
