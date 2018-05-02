@@ -1,0 +1,13 @@
+Circular and Doubly linked List
+ - In each node, we have three fields
+	1) next link (pointing to successor of this node)
+	2) data element
+	3) prev link (pointing to the predecessor of this node)
+ - The next link of the last element points to head
+ - The prev link of the dummy(first) node points to the last node
+
+ - Before making something for a circular doubly linked list, draw a diagram!
+   Figure out the logic first.
+
+
+

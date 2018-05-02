@@ -1,0 +1,6 @@
+On CDLL's, when inserting a node after the current node, you must reassign node.next.prev before reassigning node.next
+
+------------------------------- New Topic -------------------------------------
+Insertion Sort: 
+ - THe first unsorted location is always the right neighbor of the last sorted 
+location
